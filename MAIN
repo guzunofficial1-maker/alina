@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Alina — Personal Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(120deg, #f6d365, #fda085);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      color: white;
+    }
+
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid white;
+      margin-bottom: 20px;
+    }
+
+    section {
+      background: white;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #f76b1c;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #fda085;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 20px;
+      margin: 5px;
+      font-size: 14px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+      object-fit: cover;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="photo.jpg" alt="My photo">
+    <h1>Alina</h1>
+    <p>Добро пожаловать на мою страницу ✨</p>
+  </header>
+
+  <section>
+    <h2>Обо мне</h2>
+    <p>
+      Привет! Меня зовут Алина. Я начинаю свой путь в разработке,
+      учусь создавать сайты и хочу расти в IT 🚀
+    </p>
+  </section>
+
+  <section>
+    <h2>Навыки</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>GitHub</span>
+      <span>Learning JavaScript</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Фотографии</h2>
+    <div class="gallery">
+      <img src="photo1.jpg">
+      <img src="photo2.jpg">
+      <img src="photo3.jpg">
+    </div>
+  </section>
+
+  <section>
+    <h2>Контакты</h2>
+    <p>📧 Email: your@email.com</p>
+    <p>📱 Telegram: @yourusername</p>
+  </section>
+
+  <footer>
+    © 2026 Alina
+  </footer>
+
+</body>
+</html>
